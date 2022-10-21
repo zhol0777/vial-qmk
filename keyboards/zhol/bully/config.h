@@ -7,7 +7,7 @@
 #define PRODUCT_ID      0x0001
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    zhol
-#define PRODUCT         bkmf
+#define PRODUCT         bully
 
 /* key matrix size */
 #define MATRIX_ROWS 4
