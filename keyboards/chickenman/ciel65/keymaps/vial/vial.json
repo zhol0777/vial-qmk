@@ -2,7 +2,7 @@
   "name": "Ciel65 V3",
   "vendorId": "0x3A0E",
   "productId": "0x4C83",
-  "lighting": "qmk_backlight_rgblight",
+  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 16
