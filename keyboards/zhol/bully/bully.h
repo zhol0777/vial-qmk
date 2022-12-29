@@ -6,7 +6,7 @@
 
 #define XXX KC_NO
 
-#define LAYOUT_default( \
+#define LAYOUT( \
 	K0A, K0B, K0C, K0D, K0E, K0F, K0G, K0H, K0I, K0J, K0K, K0L, K3L, \
     K1A, K1B, K1C, K1D, K1E, K1F, K1G, K1H, K1I, K1J, K1K, K1L,      \
     K2A, K2B, K2C, K2D, K2E, K2F, K2G, K2H, K2I, K2J, K2K, K2L,      \
