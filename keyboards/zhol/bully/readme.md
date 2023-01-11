@@ -2,7 +2,7 @@
 
 * Keyboard Maintainer: [zhol0777](https://github.com/zhol0777)
 * Hardware Supported: APM32F072
-* Hardware Availability: private group buy & (cbkbd.com)[https://www.cbkbd.com/]
+* Hardware Availability: [Coffee Break Keyboards](https://cbkbd.com/)
 
 Make example for this keyboard (after setting up your build environment):
 
