@@ -1,1 +1,2 @@
-# This file intentionally left blank
+DFU_SUFFIX_ARGS = -p FFFF -v FFFF # allow for APM32 MCU, comment out if STM32
+OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
