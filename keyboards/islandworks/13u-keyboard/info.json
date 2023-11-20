@@ -1,6 +1,6 @@
 {
     "manufacturer": "islandworks",
-    "keyboard_name": "13U",
+    "keyboard_name": "13u-keyboard",
     "maintainer": "zhol0777",
     "processor": "RP2040",
     "bootloader": "rp2040",

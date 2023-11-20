@@ -1,8 +1,6 @@
-# zhol/islandworks_13u
+# islandworks chalice-rep
 
-![zhol/islandworks_13u](imgur.com image replace me!)
-
-*Some 13u hhkb i don't know *
+*PCB replacement for Owlabs Chalice40 that supports 2.25u Left Shift*
 
 * Keyboard Maintainer: [Zhol Internet](https://github.com/zhol0777)
 * Hardware Supported: RP2040
@@ -10,11 +8,11 @@
 
 Make example for this keyboard (after setting up your build environment):
 
-    make zhol/islandworks_13u:default
+    make islandworks/chalice-rep:default
 
 Flashing example for this keyboard:
 
-    make zhol/islandworks_13u:default:flash
+    make islandworks/chalice-rep:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
@@ -23,5 +21,5 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 Enter the bootloader in 3 ways:
 
 * **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
+* **Physical reset button**: ask dom about this lol i dont know how the two button solution works
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
