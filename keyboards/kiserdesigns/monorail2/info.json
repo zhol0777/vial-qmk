@@ -1,0 +1,272 @@
+{
+    "keyboard_name": "Monorail V2",
+    "url": "http://www.keyboard-layout-editor.com/#/gists/9a8e972048b516e5b29cfb68b049d7f8",
+    "maintainer": "qmk",
+    "width": 16,
+    "height": 4,
+    "usb": {
+        "vid": "0x4B44",
+        "pid": "0x4D72",
+        "device_version": "2.0.0"
+    },
+    "product": "Monorail V2",
+    "manufacturer": "Kiser Designs",
+    "diode_direction": "COL2ROW",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "cols": ["GP23", "GP22", "GP21", "GP20", "GP19", "GP18", "GP17", "GP16", "GP10", "GP11", "GP6", "GP0"],
+        "rows": ["GP9", "GP1", "GP4", "GP5", "GP28"]
+    },
+    "features": {
+        "encoder": true,
+        "bootmagic": true,
+        "extrakey": true,       // Audio control and System control
+        "mousekey": true,       // Mouse keys
+        "nkro": true,           // Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
+        "unicode": true,        // Unicode
+        "console": false,       // Console for debug
+        "command": false,       // Commands for debug and configuration
+        "midi": false,          // MIDI controls
+        "audio": false,         // Audio output on port C6
+        "bluetooth": false,     // Enable Bluetooth with the Adafruit EZ-Key HID
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP12", "pin_b": "GP24", "resolution": 4}
+        ]
+    },
+    "bootmagic": {
+        "enabled": true,
+        "matrix": [0, 0]
+    },
+    "indicators": {
+        // flip the 0 to a 1 to go back to a regular caps lock indicator,
+        // or remove these 2 lines entirely to eliminate the caps lock indicator function
+        "caps_lock": "GP25",
+        "on_state": 0
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "x": 8,
+                    "y": 0
+                },
+                {
+                    "x": 9,
+                    "y": 0
+                },
+                {
+                    "x": 10,
+                    "y": 0
+                },
+                {
+                    "x": 11,
+                    "y": 0,
+                    "w": 1.75
+                },
+                {
+                    "x": 13,
+                    "y": 0
+                },
+                {
+                    "x": 14,
+                    "y": 0
+                },
+                {
+                    "x": 15,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "w": 1.25
+                },
+                {
+                    "x": 1.25,
+                    "y": 1
+                },
+                {
+                    "x": 2.25,
+                    "y": 1
+                },
+                {
+                    "x": 3.25,
+                    "y": 1
+                },
+                {
+                    "x": 4.25,
+                    "y": 1
+                },
+                {
+                    "x": 5.25,
+                    "y": 1
+                },
+                {
+                    "x": 6.25,
+                    "y": 1
+                },
+                {
+                    "x": 7.25,
+                    "y": 1
+                },
+                {
+                    "x": 8.25,
+                    "y": 1
+                },
+                {
+                    "x": 9.25,
+                    "y": 1
+                },
+                {
+                    "x": 10.25,
+                    "y": 1
+                },
+                {
+                    "x": 11.25,
+                    "y": 1,
+                    "w": 1.5
+                },
+                {
+                    "x": 0,
+                    "y": 2,
+                    "w": 1.75
+                },
+                {
+                    "x": 1.75,
+                    "y": 2
+                },
+                {
+                    "x": 2.75,
+                    "y": 2
+                },
+                {
+                    "x": 3.75,
+                    "y": 2
+                },
+                {
+                    "x": 4.75,
+                    "y": 2
+                },
+                {
+                    "x": 5.75,
+                    "y": 2
+                },
+                {
+                    "x": 6.75,
+                    "y": 2
+                },
+                {
+                    "x": 7.75,
+                    "y": 2
+                },
+                {
+                    "x": 8.75,
+                    "y": 2
+                },
+                {
+                    "x": 9.75,
+                    "y": 2
+                },
+                {
+                    "x": 10.75,
+                    "y": 2
+                },
+                {
+                    "x": 11.75,
+                    "y": 2
+                },
+                {
+                    "x": 14,
+                    "y": 2
+                },
+                {
+                    "x": 0,
+                    "y": 3,
+                    "w": 1.25
+                },
+                {
+                    "x": 1.25,
+                    "y": 3,
+                    "w": 1.25
+                },
+                {
+                    "x": 2.5,
+                    "y": 3,
+                    "w": 1.25
+                },
+                {
+                    "x": 3.75,
+                    "y": 3,
+                    "w": 2.5
+                },
+                {
+                    "x": 6.25,
+                    "y": 3,
+                    "w": 2.5
+                },
+                {
+                    "x": 8.75,
+                    "y": 3
+                },
+                {
+                    "x": 9.75,
+                    "y": 3
+                },
+                {
+                    "x": 10.75,
+                    "y": 3
+                },
+                {
+                    "x": 11.75,
+                    "y": 3
+                },
+                {
+                    "x": 13,
+                    "y": 3
+                },
+                {
+                    "x": 14,
+                    "y": 3
+                },
+                {
+                    "x": 15,
+                    "y": 3
+                }
+            ]
+        }
+    }
+}
