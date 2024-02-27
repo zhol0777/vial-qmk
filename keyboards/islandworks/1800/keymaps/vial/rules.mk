@@ -1,2 +1,2 @@
-VIA_ENABLE = true
-VIAL_ENABLE = true
+VIA_ENABLE = yes
+VIAL_ENABLE = yes

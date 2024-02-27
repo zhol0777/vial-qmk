@@ -76,3 +76,27 @@ void keyboard_post_init_user(void) {
     // Enable the LED layers
     rgblight_layers = my_rgb_layers;
 }
+
+bool led_update_user(led_t led_state) {
+	rgblight_set_layer_state(0, led_state.num_lock);
+    rgblight_set_layer_state(1, led_state.caps_lock);
+	rgblight_set_layer_state(2, led_state.scroll_lock);
+    return true;
+}
+
+// Enabling and disabling lighting layers
+layer_state_t layer_state_set_user(layer_state_t state) {
+    // Both layers will light up if both kb layers are active
+    rgblight_set_layer_state(0, layer_state_cmp(state, 0));
+    rgblight_set_layer_state(1, layer_state_cmp(state, 1));
+    rgblight_set_layer_state(3, layer_state_cmp(state, 3));
+
+    return state;
+}
+
+layer_state_t default_layer_state_set_user(layer_state_t state) {
+    rgblight_set_layer_state(0, layer_state_cmp(state, 0));
+    rgblight_set_layer_state(1, layer_state_cmp(state, 1));
+    rgblight_set_layer_state(3, layer_state_cmp(state, 3));
+    return state;
+}
